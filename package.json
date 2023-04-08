@@ -1,0 +1,28 @@
+{
+  "name": "404",
+  "version": "1.0.0",
+  "description": "404 Pages not found",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joellesenne/404.git"
+  },
+  "keywords": [
+    "404-page"
+  ],
+  "author": "Joël Lesenne <contact@joellesenne.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joellesenne/404/issues"
+  },
+  "homepage": "https://github.com/joellesenne/404#readme",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
+}
