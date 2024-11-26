@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/joellesenne/404#readme",
   "devDependencies": {
-    "vite": "^5.0.10"
+    "vite": "^6.0.0"
   }
 }
