@@ -1,9 +1,12 @@
-import {defineConfig} from "vite";
-import { resolve } from 'path'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { defineConfig } from 'vite'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
     server: {
-        open: 'src/404.html',
+        open: '404.html',
     },
     root: "src",
     publicDir: "../public",
